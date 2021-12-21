@@ -3,13 +3,18 @@ body {
   font-size: 14px;
   line-height: 1.8;
   letter-spacing: .8px;
-  color: #333;
+  color: #fff;
+  background-image: url("profile.png");
+  background-size: contain ;
+  background-position-y:100px ;
+
 }
 
 a {
   transition: opacity .3s;
   text-decoration: none;
   color: #1ca9e3;
+
 }
 
 img {
@@ -98,7 +103,7 @@ li {
 }
 
 .header-logo a {
-  color: #333;
+  color: rgb(255, 13, 13);
 }
 
 .header-nav-list {
@@ -118,7 +123,7 @@ li {
   padding: 5px 0;
   transition: .3s;
   letter-spacing: .05em;
-  color: #333;
+  color: rgb(252, 4, 4);
 }
 .header-nav-item a:after {
   position: absolute;
@@ -194,6 +199,7 @@ li {
   display: flex;
   flex-wrap: wrap;
   margin-bottom: -40px;
+
 }
 
 .works-item {
@@ -201,6 +207,7 @@ li {
   margin-right: 1.58730%;
   margin-bottom: 40px;
   color: #333;
+
 }
 
 .works-img img {
@@ -230,13 +237,13 @@ li {
   max-width: 180px;
   height:50px;
   text-align: center;
-  background-color: #9ec34b;
+  background-color: #365896;
   font-size: 16px;
   line-height: 52px;
   color: #FFF;
   text-decoration: none;
   font-weight: bold;
-  border: 2px solid #9ec34b;
+  border: 2px solid #2c366d;
   position: relative;
   overflow: hidden;
   z-index: 1;
@@ -255,7 +262,8 @@ li {
   z-index: -1;
 }
 .btn-open:hover{
-  color: #9ec34b;
+  color: #336ebd;
+  background-color: #1ca9e3;
 }
 .btn-open:hover:after{
   height: 240%;
@@ -271,12 +279,12 @@ li {
   max-width: 180px;
   text-align: center;
   font-size: 16px;
-  color: #9ec34b;
+  color: #9b95ee;
   text-decoration: none;
   font-weight: bold;
   padding: 8px 16px;
   position: relative;
-  border: 2px solid #9ec34b;
+  border: 2px solid #5a18d3;
   transition: .4s;
 }
 
@@ -325,7 +333,7 @@ li {
   font-weight: bold;
   padding: 12px 24px;
   border-radius: 4px;
-  background-image: linear-gradient(-90deg, #89eb75, #f1e753);
+  background-image: linear-gradient(-90deg, #58d0ee, #eceac7);
   transition: .5s;
   background-size: 200%;
 }
@@ -364,6 +372,10 @@ li {
 
 .skill-name {
   margin-bottom: 3px;
+  color: #000;
+}
+.skill-text{
+  color: #000;
 }
 
 /*--------------------------------
