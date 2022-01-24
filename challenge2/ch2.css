@@ -11,13 +11,15 @@
 body {
   margin: 0;
   padding: 40px;
+  background: #504643 url(wood.jpg);
+  text-align: center;
 }
 .wrapper {
   background: #f9f8ee;
   width: 800px;
   max-width: 90%;
   margin: 0 auto;
-  padding: 20px;
+  padding: 60px;
 }
 
 /*----------------------------
@@ -52,3 +54,9 @@ em {
 /*----------------------------
 この下に、CSSの指定を記述していきましょう。
 ----------------------------*/
+ul{
+  list-style: none;
+  padding: 0;
+  display:flex ;
+}
+li{flex: 1 1 20% ;}
