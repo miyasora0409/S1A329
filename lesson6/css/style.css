@@ -270,7 +270,7 @@ figure iframe{
 }
 .slide > :first-child{
   animation-name: slide-4;
-  animation-duration: 7s;
+  animation-duration: 20s;
   animation-timing-function:ease-in-out;
   animation-delay: 0s;
   animation-iteration-count: infinite;
