@@ -100,10 +100,12 @@ li {
   line-height: 1.2;
   margin-right: 20px;
   letter-spacing: .05em;
+  
 }
 
 .header-logo a {
   color: rgb(255, 13, 13);
+  padding: 10px;
 }
 
 .header-nav-list {
@@ -120,7 +122,7 @@ li {
   font-size: 13px;
   font-weight: bold;
   display: inline-block;
-  padding: 5px 0;
+  padding: 10px ;
   transition: .3s;
   letter-spacing: .05em;
   color: rgb(252, 4, 4);
@@ -145,6 +147,7 @@ li {
 /*--------------------------------
  メインビジュアル
 ---------------------------------*/
+
 .main-visual {
   display: flex;
   align-items: center;
@@ -163,6 +166,8 @@ li {
   line-height: 1.2;
   margin-bottom: 5px;
   letter-spacing: .1em;
+  
+
 }
 .main-visual-subtitle {
   font-size: 20px;
@@ -177,16 +182,11 @@ li {
   max-width: 800px;
   margin: 0 auto;
 }
-.main-visual-img {
-  width: 20%;
-  margin-right: 30px;
-  border-radius: 50%;
-}
-.main-visual-img img {
-  border-radius: 50%;
-}
+
 .main-visual-text {
   flex: 1;
+  text-align: center;
+  
 }
 .main-visual-text p:not(:last-child) {
   margin-bottom: 30px;
@@ -207,7 +207,6 @@ li {
   margin-right: 1.58730%;
   margin-bottom: 40px;
   color: #333;
-
 }
 
 .works-img img {
